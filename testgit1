@@ -1,0 +1,884 @@
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ pwd
+/c/Users/9301738K
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ cd..
+bash: cd..: command not found
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ pwd
+/c/Users/9301738K
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ cd..
+bash: cd..: command not found
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ cd ..
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/Users
+$ cd ..
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c
+$ ls
+'$RECYCLE.BIN'/            'Program Files'/               Windows/
+ Config.Msi/               'Program Files (x86)'/         hiberfil.sys
+'Documents and Settings'@   ProgramData/                  hp/
+ DumpStack.log.tmp          Recovery/                     pagefile.sys
+ Intel/                    'System Volume Information'/   sncf/
+ OS                         System.Sav/                   swapfile.sys
+ PerfLogs/                  Users/
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c
+$ cd users
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users
+$ cd/c/users/9301738K
+bash: cd/c/users/9301738K: No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users
+$ cd 9301738K
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+'Menu Démarrer'@
+'Mes documents'@
+ Modèles@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Pictures/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+"Voisinage d'impression"@
+'Voisinage réseau'@
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K
+$ ls .
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+'Menu Démarrer'@
+'Mes documents'@
+ Modèles@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Pictures/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+"Voisinage d'impression"@
+'Voisinage réseau'@
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K
+$ ls a
+ls: cannot access 'a': No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K
+$ ls -a
+ ./
+ ../
+ .cisco/
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+'Menu Démarrer'@
+'Mes documents'@
+ Modèles@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Pictures/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+"Voisinage d'impression"@
+'Voisinage réseau'@
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K
+$ ls images
+ls: cannot access 'images': No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K
+$ ls /pictures
+ls: cannot access '/pictures': No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K
+$ ls bin
+ls: cannot access 'bin': No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K
+$ ls /bin
+'[.exe'*                      msys-gpg-error-0.dll*
+ addgnupghome*                msys-gssapi-3.dll*
+ applygnupgdefaults*          msys-hcrypto-4.dll*
+ arch.exe*                    msys-heimbase-1.dll*
+ astextplain*                 msys-heimntlm-0.dll*
+ autopoint*                   msys-hogweed-6.dll*
+ awk.exe*                     msys-hx509-5.dll*
+ b2sum.exe*                   msys-iconv-2.dll*
+ backup*                      msys-idn2-0.dll*
+ base32.exe*                  msys-intl-8.dll*
+ base64.exe*                  msys-kafs-0.dll*
+ basename.exe*                msys-krb5-26.dll*
+ basenc.exe*                  msys-ksba-8.dll*
+ bash.exe*                    msys-lz4-1.dll*
+ bashbug*                     msys-magic-1.dll*
+ bunzip2.exe*                 msys-mpfr-6.dll*
+ bzcat.exe*                   msys-ncursesw6.dll*
+ bzcmp*                       msys-nettle-8.dll*
+ bzdiff*                      msys-npth-0.dll*
+ bzegrep*                     msys-p11-kit-0.dll*
+ bzfgrep*                     msys-pcre-1.dll*
+ bzgrep*                      msys-perl5_34.dll*
+ bzip2.exe*                   msys-psl-5.dll*
+ bzip2recover.exe*            msys-readline8.dll*
+ bzless*                      msys-roken-18.dll*
+ bzmore*                      msys-sasl2-3.dll*
+ c_rehash*                    msys-serf-1-0.dll*
+ captoinfo.exe*               msys-smartcols-1.dll*
+ cat.exe*                     msys-sqlite3-0.dll*
+ chattr.exe*                  msys-ssl-1.1.dll*
+ chcon.exe*                   msys-svn_client-1-0.dll*
+ chgrp.exe*                   msys-svn_delta-1-0.dll*
+ chmod.exe*                   msys-svn_diff-1-0.dll*
+ chown.exe*                   msys-svn_fs-1-0.dll*
+ chroot.exe*                  msys-svn_fs_fs-1-0.dll*
+ cksum.exe*                   msys-svn_fs_util-1-0.dll*
+ clear.exe*                   msys-svn_fs_x-1-0.dll*
+ cmp.exe*                     msys-svn_ra-1-0.dll*
+ column.exe*                  msys-svn_ra_local-1-0.dll*
+ comm.exe*                    msys-svn_ra_serf-1-0.dll*
+ core_perl/                   msys-svn_ra_svn-1-0.dll*
+ cp.exe*                      msys-svn_repos-1-0.dll*
+ csplit.exe*                  msys-svn_subr-1-0.dll*
+ cut.exe*                     msys-svn_swig_perl-1-0.dll*
+ cygcheck.exe*                msys-svn_wc-1-0.dll*
+ cygpath.exe*                 msys-tasn1-6.dll*
+ cygwin-console-helper.exe*   msys-ticw6.dll*
+ d2u.exe*                     msys-unistring-2.dll*
+ dash.exe*                    msys-uuid-1.dll*
+ date.exe*                    msys-wind-0.dll*
+ dd.exe*                      msys-z.dll*
+ df.exe*                      mv.exe*
+ diff.exe*                    nano.exe*
+ diff3.exe*                   nettle-hash.exe*
+ dir.exe*                     nettle-lfib-stream.exe*
+ dircolors.exe*               nettle-pbkdf2.exe*
+ dirmngr-client.exe*          ngettext.exe*
+ dirmngr.exe*                 nice.exe*
+ dirname.exe*                 nl.exe*
+ docx2txt*                    nohup.exe*
+ docx2txt.pl*                 notepad*
+ dos2unix.exe*                nproc.exe*
+ du.exe*                      numfmt.exe*
+ dumpsexp.exe*                od.exe*
+ echo.exe*                    openssl.exe*
+ egrep*                       p11-kit.exe*
+ env.exe*                     passwd.exe*
+ envsubst.exe*                paste.exe*
+ ex.exe*                      patch.exe*
+ expand.exe*                  pathchk.exe*
+ expr.exe*                    perl.exe*
+ factor.exe*                  perl5.34.0.exe*
+ false.exe*                   pinentry-w32.exe*
+ fgrep*                       pinentry.exe*
+ fido2-assert.exe*            pinky.exe*
+ fido2-cred.exe*              pkcs1-conv.exe*
+ fido2-token.exe*             pldd.exe*
+ file.exe*                    pluginviewer.exe*
+ find.exe*                    pr.exe*
+ findssl.sh*                  printenv.exe*
+ fmt.exe*                     printf.exe*
+ fold.exe*                    profiler.exe*
+ funzip.exe*                  ps.exe*
+ gapplication.exe*            psl-make-dafsa*
+ gawk-5.0.0.exe*              psl.exe*
+ gawk.exe*                    ptx.exe*
+ gdbus.exe*                   pwd.exe*
+ gencat.exe*                  readlink.exe*
+ getconf.exe*                 realpath.exe*
+ getemojis*                   rebase.exe*
+ getfacl.exe*                 rebaseall*
+ getopt.exe*                  recode-sr-latin.exe*
+ gettext.exe*                 regtool.exe*
+ gettext.sh*                  reset.exe*
+ gettextize*                  restore*
+ gio-querymodules.exe*        rm.exe*
+ git-flow*                    rmdir.exe*
+ git-flow-bugfix              rnano.exe*
+ git-flow-config              runcon.exe*
+ git-flow-feature             rview.exe*
+ git-flow-hotfix              rvim.exe*
+ git-flow-init                scp.exe*
+ git-flow-log                 sdiff.exe*
+ git-flow-release             sed.exe*
+ git-flow-support             seq.exe*
+ git-flow-version             setfacl.exe*
+ gitflow-common               setmetamode.exe*
+ gitflow-shFlags              sexp-conv.exe*
+ gkill.exe*                   sftp.exe*
+ glib-compile-schemas.exe*    sh.exe*
+ gmondump.exe*                sha1sum.exe*
+ gobject-query.exe*           sha224sum.exe*
+ gpg-agent.exe*               sha256sum.exe*
+ gpg-connect-agent.exe*       sha384sum.exe*
+ gpg-error.exe*               sha512sum.exe*
+ gpg-wks-server.exe*          shred.exe*
+ gpg.exe*                     shuf.exe*
+ gpgconf.exe*                 sleep.exe*
+ gpgparsemail.exe*            sort.exe*
+ gpgscm.exe*                  split.exe*
+ gpgsm.exe*                   ssh-add.exe*
+ gpgsplit.exe*                ssh-agent.exe*
+ gpgtar.exe*                  ssh-copy-id*
+ gpgv.exe*                    ssh-keygen.exe*
+ grep.exe*                    ssh-keyscan.exe*
+ groups.exe*                  ssh-pageant.exe*
+ gsettings.exe*               ssh.exe*
+ gunzip*                      sshd.exe*
+ gzexe*                       ssp.exe*
+ gzip.exe*                    start*
+ head.exe*                    stat.exe*
+ hmac256.exe*                 stdbuf.exe*
+ hostid.exe*                  strace.exe*
+ hostname.exe*                stty.exe*
+ iconv.exe*                   sum.exe*
+ id.exe*                      sync.exe*
+ infocmp.exe*                 tabs.exe*
+ infotocap.exe*               tac.exe*
+ install.exe*                 tail.exe*
+ join.exe*                    tar.exe*
+ kbxutil.exe*                 tee.exe*
+ kill.exe*                    test.exe*
+ ldd.exe*                     tic.exe*
+ ldh.exe*                     tig.exe*
+ less.exe*                    timeout.exe*
+ lessecho.exe*                toe.exe*
+ lesskey.exe*                 touch.exe*
+ link.exe*                    tput.exe*
+ ln.exe*                      tr.exe*
+ locale.exe*                  true.exe*
+ locate.exe*                  truncate.exe*
+ logname.exe*                 trust.exe*
+ ls.exe*                      tset.exe*
+ lsattr.exe*                  tsort.exe*
+ mac2unix.exe*                tty.exe*
+ md5sum.exe*                  tzset.exe*
+ minidumper.exe*              u2d.exe*
+ mintheme*                    umount.exe*
+ mintty.exe*                  uname.exe*
+ mkdir.exe*                   uncompress*
+ mkfifo.exe*                  unexpand.exe*
+ mkgroup.exe*                 uniq.exe*
+ mknod.exe*                   unix2dos.exe*
+ mkpasswd.exe*                unix2mac.exe*
+ mktemp.exe*                  unlink.exe*
+ mount.exe*                   unzip.exe*
+ mpicalc.exe*                 unzipsfx.exe*
+ msgattrib.exe*               update-ca-trust*
+ msgcat.exe*                  updatedb*
+ msgcmp.exe*                  users.exe*
+ msgcomm.exe*                 vdir.exe*
+ msgconv.exe*                 vendor_perl/
+ msgen.exe*                   vi*
+ msgexec.exe*                 view.exe*
+ msgfilter.exe*               vim.exe*
+ msgfmt.exe*                  vimdiff.exe*
+ msggrep.exe*                 vimtutor*
+ msginit.exe*                 watchgnupg.exe*
+ msgmerge.exe*                wc.exe*
+ msgunfmt.exe*                which.exe*
+ msguniq.exe*                 who.exe*
+ msys-2.0.dll*                whoami.exe*
+ msys-apr-1-0.dll*            winpty-agent.exe*
+ msys-aprutil-1-0.dll*        winpty-debugserver.exe*
+ msys-asn1-8.dll*             winpty.dll*
+ msys-assuan-0.dll*           winpty.exe*
+ msys-bz2-1.dll*              wordpad*
+ msys-cbor-0.8.dll*           xargs.exe*
+ msys-com_err-1.dll*          xgettext.exe*
+ msys-crypt-0.dll*            xxd.exe*
+ msys-crypto-1.1.dll*         yat2m.exe*
+ msys-edit-0.dll*             yes.exe*
+ msys-expat-1.dll*            zcat*
+ msys-ffi-7.dll*              zcmp*
+ msys-fido2-1.dll*            zdiff*
+ msys-gcc_s-seh-1.dll*        zegrep*
+ msys-gcrypt-20.dll*          zfgrep*
+ msys-gettextlib-0-21.dll*    zforce*
+ msys-gettextsrc-0-21.dll*    zgrep*
+ msys-gio-2.0-0.dll*          zipgrep*
+ msys-glib-2.0-0.dll*         zipinfo.exe*
+ msys-gmodule-2.0-0.dll*      zless*
+ msys-gmp-10.dll*             zmore*
+ msys-gnutls-30.dll*          znew*
+ msys-gobject-2.0-0.dll*
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K
+$ ls -l /bin
+total 92820
+-rwxr-xr-x 1 COMMUN+9301738K 4096   73442 Feb  1 15:08 '[.exe'*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    3075 Feb  1 15:08  addgnupghome*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    2217 Feb  1 15:08  applygnupgdefaults*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   36388 Feb  1 15:08  arch.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096     689 Feb  1 15:08  astextplain*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   27040 Feb  1 15:08  autopoint*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  627466 Feb  1 15:08  awk.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   55902 Feb  1 15:08  b2sum.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    7339 Feb  1 15:08  backup*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   42331 Feb  1 15:08  base32.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   42331 Feb  1 15:08  base64.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   35907 Feb  1 15:08  basename.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   50523 Feb  1 15:08  basenc.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 2129408 Feb  1 15:08  bash.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    7006 Feb  1 15:08  bashbug*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   92176 Feb  1 15:08  bunzip2.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   92176 Feb  1 15:08  bzcat.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    2140 Feb  1 15:08  bzcmp*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    2140 Feb  1 15:08  bzdiff*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    2054 Feb  1 15:08  bzegrep*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    2054 Feb  1 15:08  bzfgrep*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    2054 Feb  1 15:08  bzgrep*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   92176 Feb  1 15:08  bzip2.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   14653 Feb  1 15:08  bzip2recover.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    1297 Feb  1 15:08  bzless*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    1297 Feb  1 15:08  bzmore*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    6230 Feb  1 15:08  c_rehash*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   78336 Feb  1 15:08  captoinfo.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   39743 Feb  1 15:08  cat.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  100008 Feb  1 15:08  chattr.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   61136 Feb  1 15:08  chcon.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   68623 Feb  1 15:08  chgrp.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   60469 Feb  1 15:08  chmod.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   70735 Feb  1 15:08  chown.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   44160 Feb  1 15:08  chroot.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   38092 Feb  1 15:08  cksum.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   10752 Feb  1 15:08  clear.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   48718 Feb  1 15:08  cmp.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   44096 Feb  1 15:08  column.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   40237 Feb  1 15:08  comm.exe*
+drwxr-xr-x 1 COMMUN+9301738K 4096       0 Apr  5 16:04  core_perl/
+-rwxr-xr-x 1 COMMUN+9301738K 4096  116189 Feb  1 15:08  cp.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  112205 Feb  1 15:08  csplit.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   45102 Feb  1 15:08  cut.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  953136 Feb  1 15:08  cygcheck.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  159024 Feb  1 15:08  cygpath.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  313760 Feb  1 15:08  cygwin-console-helper.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   51302 Feb  1 15:08  d2u.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  111751 Feb  1 15:08  dash.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  121713 Feb  1 15:08  date.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   93292 Feb  1 15:08  dd.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  106947 Feb  1 15:08  df.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  211777 Feb  1 15:08  diff.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   63289 Feb  1 15:08  diff3.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  151527 Feb  1 15:08  dir.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   58500 Feb  1 15:08  dircolors.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   94929 Feb  1 15:08  dirmngr-client.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  376924 Feb  1 15:08  dirmngr.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   35342 Feb  1 15:08  dirname.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    3363 Feb  1 15:08  docx2txt*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   21572 Feb  1 15:08  docx2txt.pl*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   51302 Feb  1 15:08  dos2unix.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  169946 Feb  1 15:08  du.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   16517 Feb  1 15:08  dumpsexp.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   36779 Feb  1 15:08  echo.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096      28 Feb  1 15:08  egrep*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   46196 Feb  1 15:08  env.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   35226 Feb  1 15:08  envsubst.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 3317248 Feb  1 15:08  ex.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   38673 Feb  1 15:08  expand.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  111126 Feb  1 15:08  expr.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   77490 Feb  1 15:08  factor.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   34147 Feb  1 15:08  false.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096      28 Feb  1 15:08  fgrep*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   32390 Feb  1 15:08  fido2-assert.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   30520 Feb  1 15:08  fido2-cred.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   44781 Feb  1 15:08  fido2-token.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   24194 Feb  1 15:08  file.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  287353 Feb  1 15:08  find.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    4797 Feb  1 15:08  findssl.sh*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   44354 Feb  1 15:08  fmt.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   39228 Feb  1 15:08  fold.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   33629 Feb  1 15:08  funzip.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   19696 Feb  1 15:08  gapplication.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  627466 Feb  1 15:08  gawk-5.0.0.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  627466 Feb  1 15:08  gawk.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   45629 Feb  1 15:08  gdbus.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  108720 Feb  1 15:08  gencat.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  106880 Feb  1 15:08  getconf.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    5197 Feb  1 15:08  getemojis*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   96824 Feb  1 15:08  getfacl.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   17624 Feb  1 15:08  getopt.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   35759 Feb  1 15:08  gettext.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    5188 Feb  1 15:08  gettext.sh*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   42268 Feb  1 15:08  gettextize*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   14075 Feb  1 15:08  gio-querymodules.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    6937 Feb  1 15:08  git-flow*
+-rw-r--r-- 1 COMMUN+9301738K 4096   24605 Feb  1 15:08  git-flow-bugfix
+-rw-r--r-- 1 COMMUN+9301738K 4096    8619 Feb  1 15:08  git-flow-config
+-rw-r--r-- 1 COMMUN+9301738K 4096   24690 Feb  1 15:08  git-flow-feature
+-rw-r--r-- 1 COMMUN+9301738K 4096   24270 Feb  1 15:08  git-flow-hotfix
+-rw-r--r-- 1 COMMUN+9301738K 4096   15496 Feb  1 15:08  git-flow-init
+-rw-r--r-- 1 COMMUN+9301738K 4096    2797 Feb  1 15:08  git-flow-log
+-rw-r--r-- 1 COMMUN+9301738K 4096   37951 Feb  1 15:08  git-flow-release
+-rw-r--r-- 1 COMMUN+9301738K 4096    6952 Feb  1 15:08  git-flow-support
+-rw-r--r-- 1 COMMUN+9301738K 4096    2168 Feb  1 15:08  git-flow-version
+-rw-r--r-- 1 COMMUN+9301738K 4096   19838 Feb  1 15:08  gitflow-common
+-rw-r--r-- 1 COMMUN+9301738K 4096   35637 Feb  1 15:08  gitflow-shFlags
+-rwxr-xr-x 1 COMMUN+9301738K 4096   38590 Feb  1 15:08  gkill.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   52688 Feb  1 15:08  glib-compile-schemas.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   95696 Feb  1 15:08  gmondump.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   12622 Feb  1 15:08  gobject-query.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  373026 Feb  1 15:08  gpg-agent.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  137339 Feb  1 15:08  gpg-connect-agent.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   32802 Feb  1 15:08  gpg-error.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  178464 Feb  1 15:08  gpg-wks-server.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 1008641 Feb  1 15:08  gpg.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  141299 Feb  1 15:08  gpgconf.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   28044 Feb  1 15:08  gpgparsemail.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  223325 Feb  1 15:08  gpgscm.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  471875 Feb  1 15:08  gpgsm.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   64394 Feb  1 15:08  gpgsplit.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  129580 Feb  1 15:08  gpgtar.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  430471 Feb  1 15:08  gpgv.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  215249 Feb  1 15:08  grep.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   37102 Feb  1 15:08  groups.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   26477 Feb  1 15:08  gsettings.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    2346 Feb  1 15:08  gunzip*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    6376 Feb  1 15:08  gzexe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  107091 Feb  1 15:08  gzip.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   45925 Feb  1 15:08  head.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   16553 Feb  1 15:08  hmac256.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   34339 Feb  1 15:08  hostid.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   34918 Feb  1 15:08  hostname.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   29501 Feb  1 15:08  iconv.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   44471 Feb  1 15:08  id.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   55296 Feb  1 15:08  infocmp.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   78336 Feb  1 15:08  infotocap.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  152032 Feb  1 15:08  install.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   52758 Feb  1 15:08  join.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  147551 Feb  1 15:08  kbxutil.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  120392 Feb  1 15:08  kill.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  124248 Feb  1 15:08  ldd.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  150024 Feb  1 15:08  ldh.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  180015 Feb  1 15:08  less.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   12267 Feb  1 15:08  lessecho.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   17512 Feb  1 15:08  lesskey.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   34846 Feb  1 15:08  link.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   78613 Feb  1 15:08  ln.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  135104 Feb  1 15:08  locale.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  144595 Feb  1 15:08  locate.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   34879 Feb  1 15:08  logname.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  151527 Feb  1 15:08  ls.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   98360 Feb  1 15:08  lsattr.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   51302 Feb  1 15:08  mac2unix.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   47548 Feb  1 15:08  md5sum.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  102496 Feb  1 15:08  minidumper.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   12680 Feb  1 15:08  mintheme*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  998969 Feb  1 15:08  mintty.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   73995 Feb  1 15:08  mkdir.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   37076 Feb  1 15:08  mkfifo.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  129552 Feb  1 15:08  mkgroup.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   40762 Feb  1 15:08  mknod.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  128888 Feb  1 15:08  mkpasswd.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   44704 Feb  1 15:08  mktemp.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  123960 Feb  1 15:08  mount.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   18116 Feb  1 15:08  mpicalc.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   25198 Feb  1 15:08  msgattrib.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   24111 Feb  1 15:08  msgcat.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   25115 Feb  1 15:08  msgcmp.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   24394 Feb  1 15:08  msgcomm.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   20949 Feb  1 15:08  msgconv.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   20968 Feb  1 15:08  msgen.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   19543 Feb  1 15:08  msgexec.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   28717 Feb  1 15:08  msgfilter.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   80064 Feb  1 15:08  msgfmt.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  107878 Feb  1 15:08  msggrep.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   47586 Feb  1 15:08  msginit.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   54800 Feb  1 15:08  msgmerge.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   33435 Feb  1 15:08  msgunfmt.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   23613 Feb  1 15:08  msguniq.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 3584384 Feb  1 15:08  msys-2.0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  177507 Feb  1 15:08  msys-apr-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  131317 Feb  1 15:08  msys-aprutil-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  520749 Feb  1 15:08  msys-asn1-8.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   70618 Feb  1 15:08  msys-assuan-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   67277 Feb  1 15:08  msys-bz2-1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   49547 Feb  1 15:08  msys-cbor-0.8.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   10102 Feb  1 15:08  msys-com_err-1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   40313 Feb  1 15:08  msys-crypt-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 2483970 Feb  1 15:08  msys-crypto-1.1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  179577 Feb  1 15:08  msys-edit-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  170554 Feb  1 15:08  msys-expat-1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   26112 Feb  1 15:08  msys-ffi-7.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  149985 Feb  1 15:08  msys-fido2-1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   76038 Feb  1 15:08  msys-gcc_s-seh-1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  815927 Feb  1 15:08  msys-gcrypt-20.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 1365622 Feb  1 15:08  msys-gettextlib-0-21.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  297034 Feb  1 15:08  msys-gettextsrc-0-21.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 1742134 Feb  1 15:08  msys-gio-2.0-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 1163248 Feb  1 15:08  msys-glib-2.0-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   14709 Feb  1 15:08  msys-gmodule-2.0-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  581162 Feb  1 15:08  msys-gmp-10.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 1728448 Feb  1 15:08  msys-gnutls-30.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  315131 Feb  1 15:08  msys-gobject-2.0-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  132161 Feb  1 15:08  msys-gpg-error-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  224187 Feb  1 15:08  msys-gssapi-3.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  196920 Feb  1 15:08  msys-hcrypto-4.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   50402 Feb  1 15:08  msys-heimbase-1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   32241 Feb  1 15:08  msys-heimntlm-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  270431 Feb  1 15:08  msys-hogweed-6.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  277150 Feb  1 15:08  msys-hx509-5.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 1023499 Feb  1 15:08  msys-iconv-2.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  129023 Feb  1 15:08  msys-idn2-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   45895 Feb  1 15:08  msys-intl-8.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   28576 Feb  1 15:08  msys-kafs-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  474135 Feb  1 15:08  msys-krb5-26.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  238572 Feb  1 15:08  msys-ksba-8.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  197871 Feb  1 15:08  msys-lz4-1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  159222 Feb  1 15:08  msys-magic-1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 2717824 Feb  1 15:08  msys-mpfr-6.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  319746 Feb  1 15:08  msys-ncursesw6.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  259507 Feb  1 15:08  msys-nettle-8.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   16068 Feb  1 15:08  msys-npth-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 1041480 Feb  1 15:08  msys-p11-kit-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  286198 Feb  1 15:08  msys-pcre-1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 3415604 Feb  1 15:08  msys-perl5_34.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   67829 Feb  1 15:08  msys-psl-5.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  263878 Feb  1 15:08  msys-readline8.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   66082 Feb  1 15:08  msys-roken-18.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   98888 Feb  1 15:08  msys-sasl2-3.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   99729 Feb  1 15:08  msys-serf-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  163699 Feb  1 15:08  msys-smartcols-1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 1289337 Feb  1 15:08  msys-sqlite3-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  528477 Feb  1 15:08  msys-ssl-1.1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  578961 Feb  1 15:08  msys-svn_client-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  110411 Feb  1 15:08  msys-svn_delta-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   88067 Feb  1 15:08  msys-svn_diff-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   45397 Feb  1 15:08  msys-svn_fs-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  303564 Feb  1 15:08  msys-svn_fs_fs-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   13077 Feb  1 15:08  msys-svn_fs_util-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  296199 Feb  1 15:08  msys-svn_fs_x-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   50453 Feb  1 15:08  msys-svn_ra-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   38900 Feb  1 15:08  msys-svn_ra_local-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  193287 Feb  1 15:08  msys-svn_ra_serf-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  126601 Feb  1 15:08  msys-svn_ra_svn-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  239643 Feb  1 15:08  msys-svn_repos-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  791499 Feb  1 15:08  msys-svn_subr-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   44100 Feb  1 15:08  msys-svn_swig_perl-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  696488 Feb  1 15:08  msys-svn_wc-1-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   70621 Feb  1 15:08  msys-tasn1-6.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   61991 Feb  1 15:08  msys-ticw6.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 1644899 Feb  1 15:08  msys-unistring-2.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   27650 Feb  1 15:08  msys-uuid-1.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  164463 Feb  1 15:08  msys-wind-0.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   85068 Feb  1 15:08  msys-z.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  124990 Feb  1 15:08  mv.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  362893 Feb  1 15:08  nano.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   18460 Feb  1 15:08  nettle-hash.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   10273 Feb  1 15:08  nettle-lfib-stream.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   18548 Feb  1 15:08  nettle-pbkdf2.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   35793 Feb  1 15:08  ngettext.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   38061 Feb  1 15:08  nice.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  104060 Feb  1 15:08  nl.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   37106 Feb  1 15:08  nohup.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096     635 Feb  1 15:08  notepad*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   37683 Feb  1 15:08  nproc.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   62488 Feb  1 15:08  numfmt.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   88788 Feb  1 15:08  od.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  676529 Feb  1 15:08  openssl.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   31997 Feb  1 15:08  p11-kit.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  127320 Feb  1 15:08  passwd.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   38612 Feb  1 15:08  paste.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  174011 Feb  1 15:08  patch.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   36386 Feb  1 15:08  pathchk.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   14391 Feb  1 15:08  perl.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   14391 Feb  1 15:08  perl5.34.0.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   78988 Feb  1 15:08  pinentry-w32.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   78988 Feb  1 15:08  pinentry.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   41602 Feb  1 15:08  pinky.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   23459 Feb  1 15:08  pkcs1-conv.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   90944 Feb  1 15:08  pldd.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   17213 Feb  1 15:08  pluginviewer.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   74646 Feb  1 15:08  pr.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   34307 Feb  1 15:08  printenv.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   73539 Feb  1 15:08  printf.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  203088 Feb  1 15:08  profiler.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  113144 Feb  1 15:08  ps.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   22781 Feb  1 15:08  psl-make-dafsa*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   17056 Feb  1 15:08  psl.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  130279 Feb  1 15:08  ptx.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   37172 Feb  1 15:08  pwd.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   49515 Feb  1 15:08  readlink.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   51112 Feb  1 15:08  realpath.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  905426 Feb  1 15:08  rebase.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    7151 Feb  1 15:08  rebaseall*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   17007 Feb  1 15:08  recode-sr-latin.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  132800 Feb  1 15:08  regtool.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   21504 Feb  1 15:08  reset.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    5997 Feb  1 15:08  restore*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   65349 Feb  1 15:08  rm.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   64295 Feb  1 15:08  rmdir.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  362893 Feb  1 15:08  rnano.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   35329 Feb  1 15:08  runcon.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 3326494 Feb  1 15:08  rview.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 3326494 Feb  1 15:08  rvim.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  184573 Feb  1 15:08  scp.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   54426 Feb  1 15:08  sdiff.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  176048 Feb  1 15:08  sed.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   70536 Feb  1 15:08  seq.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  118584 Feb  1 15:08  setfacl.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   85024 Feb  1 15:08  setmetamode.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   29867 Feb  1 15:08  sexp-conv.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  194205 Feb  1 15:08  sftp.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 2129408 Feb  1 15:08  sh.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   50108 Feb  1 15:08  sha1sum.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   56252 Feb  1 15:08  sha224sum.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   56252 Feb  1 15:08  sha256sum.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   61372 Feb  1 15:08  sha384sum.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   61372 Feb  1 15:08  sha512sum.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   59021 Feb  1 15:08  shred.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   55699 Feb  1 15:08  shuf.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   36515 Feb  1 15:08  sleep.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  110615 Feb  1 15:08  sort.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   56260 Feb  1 15:08  split.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  366436 Feb  1 15:08  ssh-add.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  348015 Feb  1 15:08  ssh-agent.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   12676 Feb  1 15:08  ssh-copy-id*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  495976 Feb  1 15:08  ssh-keygen.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  455485 Feb  1 15:08  ssh-keyscan.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   21618 Feb  1 15:08  ssh-pageant.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  847091 Feb  1 15:08  ssh.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  888417 Feb  1 15:08  sshd.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  123888 Feb  1 15:08  ssp.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096     246 Feb  1 15:08  start*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   98745 Feb  1 15:08  stat.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   70048 Feb  1 15:08  stdbuf.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  480336 Feb  1 15:08  strace.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   92292 Feb  1 15:08  stty.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   43993 Feb  1 15:08  sum.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   35450 Feb  1 15:08  sync.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   14848 Feb  1 15:08  tabs.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  108244 Feb  1 15:08  tac.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   57641 Feb  1 15:08  tail.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  490699 Feb  1 15:08  tar.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   38794 Feb  1 15:08  tee.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   71355 Feb  1 15:08  test.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   78336 Feb  1 15:08  tic.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  663188 Feb  1 15:08  tig.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   43256 Feb  1 15:08  timeout.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   15360 Feb  1 15:08  toe.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  108999 Feb  1 15:08  touch.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   18944 Feb  1 15:08  tput.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   50484 Feb  1 15:08  tr.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   34147 Feb  1 15:08  true.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   40703 Feb  1 15:08  truncate.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  183168 Feb  1 15:08  trust.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   21504 Feb  1 15:08  tset.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   49447 Feb  1 15:08  tsort.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   34336 Feb  1 15:08  tty.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  137528 Feb  1 15:08  tzset.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   51302 Feb  1 15:08  u2d.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   89824 Feb  1 15:08  umount.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   36388 Feb  1 15:08  uname.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    2346 Feb  1 15:08  uncompress*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   39737 Feb  1 15:08  unexpand.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   45531 Feb  1 15:08  uniq.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   51302 Feb  1 15:08  unix2dos.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   51302 Feb  1 15:08  unix2mac.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   34848 Feb  1 15:08  unlink.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  173708 Feb  1 15:08  unzip.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   83158 Feb  1 15:08  unzipsfx.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    1373 Feb  1 15:08  update-ca-trust*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    9080 Feb  1 15:08  updatedb*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   36102 Feb  1 15:08  users.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  151527 Feb  1 15:08  vdir.exe*
+drwxr-xr-x 1 COMMUN+9301738K 4096       0 Apr  5 16:04  vendor_perl/
+-rwxr-xr-x 1 COMMUN+9301738K 4096      25 Feb  1 15:08  vi*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 3326494 Feb  1 15:08  view.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 3326494 Feb  1 15:08  vim.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096 3326494 Feb  1 15:08  vimdiff.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    2154 Feb  1 15:08  vimtutor*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   15960 Feb  1 15:08  watchgnupg.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   47878 Feb  1 15:08  wc.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   30538 Feb  1 15:08  which.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   71827 Feb  1 15:08  who.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   34911 Feb  1 15:08  whoami.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  901632 Feb  1 15:08  winpty-agent.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  791040 Feb  1 15:08  winpty-debugserver.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  830976 Feb  1 15:08  winpty.dll*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  749056 Feb  1 15:08  winpty.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096     635 Feb  1 15:08  wordpad*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   68744 Feb  1 15:08  xargs.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  288563 Feb  1 15:08  xgettext.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   19471 Feb  1 15:08  xxd.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   31975 Feb  1 15:08  yat2m.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096   35359 Feb  1 15:08  yes.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    1984 Feb  1 15:08  zcat*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    1678 Feb  1 15:08  zcmp*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    5880 Feb  1 15:08  zdiff*
+-rwxr-xr-x 1 COMMUN+9301738K 4096      29 Feb  1 15:08  zegrep*
+-rwxr-xr-x 1 COMMUN+9301738K 4096      29 Feb  1 15:08  zfgrep*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    2081 Feb  1 15:08  zforce*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    7594 Feb  1 15:08  zgrep*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    2953 Feb  1 15:08  zipgrep*
+-rwxr-xr-x 1 COMMUN+9301738K 4096  173708 Feb  1 15:08  zipinfo.exe*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    2206 Feb  1 15:08  zless*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    1842 Feb  1 15:08  zmore*
+-rwxr-xr-x 1 COMMUN+9301738K 4096    4553 Feb  1 15:08  znew*
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K
+$ pwd
+/c/users/9301738K
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K
+$ cd
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ cd ~/music
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~/music
+$ ls
+desktop.ini
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~/music
+$ ls ~/downloads
+'000026 - Direction de la Communication et de la Marque  - 2020-10-27-13-15-51.793.pdf'
+'000505 - E.SNCF SOLUTIONS - DIRECTION DESIGN ET DEVELOPPEMENT - 2022-04-04-11-41-16.779.pdf'
+'070003 - DIR VOYAGES SNCF - SECRETARIAT GENERAL - DIRECTION MEDIAS - 2022-03-09-12-51-50.701.pdf'
+'070003 - DIR VOYAGES SNCF – DIRECTION DES OPERATIONS ET SI – DIRECTION EXPLOITATION - 2022-02-25-16-58-11.756.pdf'
+ 5369200.jpg-r_1280_720-f_jpg-q_x-xxyxx.jpg
+ ChromeSetup.exe*
+ EpicInstaller-13.3.0.msi
+ Git-2.35.1.2-64-bit.exe*
+ SlackSetup.exe*
+ TeamsSetupx64_s_8DA16EF02B3DA76-7-0_c_w_.exe*
+ desktop.ini
+ grande-bretagne-img-4.jpg
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~/music
+$
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~/music
+$ cd ../home/9301738K
+bash: cd: ../home/9301738K: No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~/music
+$ cd ../c/user/9301738K
+bash: cd: ../c/user/9301738K: No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~/music
+$ ^C
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~/music
+$ cd/c/users/9301738K
+bash: cd/c/users/9301738K: No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~/music
+$ cd ../users/9301738K
+bash: cd: ../users/9301738K: No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~/music
+$ pwd
+/c/Users/9301738K/music
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~/music
+$ cd ..
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ pwd
+/c/Users/9301738K
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ cd Images
+bash: cd: Images: No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ cd download
+bash: cd: download: No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ cd downloads
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~/downloads
+$ cd ..
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ pwd
+/c/Users/9301738K
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ cd /downloads
+bash: cd: /downloads: No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ cd /c/users/9301738k/download
+bash: cd: /c/users/9301738k/download: No such file or directory
+
+COMMUN+9301738K@5CD1343GFF MINGW64 ~
+$ cd /c/users/9301738K/downloads
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K/downloads
+$ cd ..
+
+COMMUN+9301738K@5CD1343GFF MINGW64 /c/users/9301738K
+$
